@@ -1,0 +1,155 @@
+.panel {
+  text-align: left;
+}
+
+.accordion {
+  background-color: #74b3ce;
+  color: white;
+  font-weight: bold;
+  font-family: "Assistant", serif;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border-style: ridge;
+  border-color: white;
+  text-align: left;
+  outline: none;
+  font-size: 17.5px;
+  transition: 0.4s;
+  margin-left: 5px;
+}
+.active,
+.accordion:hover {
+  background-color: #4a8199;
+}
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+  font-size: 20px;
+  
+}
+li {
+  font-family: "Assistant", serif;
+  
+}
+.accordion:after {
+  content: "\002B";
+  color: #777;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+.active:after {
+  content: "\2212";
+}
+
+body {
+  background-color: #afd9ea;
+  
+}
+
+h1 {
+  text-align: center;
+font-family: 'Comfortaa', cursive;
+  padding: 30px;
+  color: white;
+  font-size: 50px;
+  
+}
+
+h3 {
+  font-family: 'Assistant', serif;
+}
+
+h5 {
+  font-family: 'Assistant', sans-serif;
+}
+
+p {
+  font-family: 'Assistant', sans-serif;
+}
+
+ul a {
+  font-family: 'Assistant', sans-serif;
+  text-decoration: none;
+  color: #8797af;
+}
+ul a:hover {
+    color: #74b3ce;
+}
+ul a:visited {
+    color: #8797af;
+}
+
+.front h5 {
+  font-size: 25px;
+  line-height: 30px;
+  padding: 10px;
+  color:white;
+}
+
+.back p {
+  line-height: 22px;
+  font-size: 19px;
+  padding: 60px;
+  color:white;
+}
+
+#dialog {
+  text-align: center;
+}
+
+.flip-container {
+  -webkit-perspective: 1000;
+  font-size: 30px;
+  margin: 10px;
+  float: left;
+  text-align: center;
+  width: 33.33%;
+
+}
+
+.flip-container.horizontal:hover .flipper {
+  -webkit-transform: rotateY(180deg);
+}
+
+.flipper {
+  -webkit-transition: 0.8s;
+  -webkit-transform-style: preserve-3d;
+  position: relative;
+}
+.flip-container.vertical .flipper {
+  -webkit-transform-origin: 50% 100px;
+}
+
+.front,
+.back {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.front {
+  z-index: 1;
+  background: #74b3ce;
+}
+
+.flip-container,
+.front,
+.back {
+  width: 330px;
+  height: 330px;
+  text-align: center;
+  line-height: 200px;
+}
+
+.back {
+background: #53a4c6;
+}
+
+.flip-container.horizontal .back {
+  -webkit-transform: rotateY(180deg);
+}

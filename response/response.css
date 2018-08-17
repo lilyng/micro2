@@ -1,0 +1,74 @@
+.accordion {
+  background-color: #74b3ce;
+  color: white;
+  font-weight: bold;
+  font-family: "Assistant", serif;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border-style: ridge;
+  border-color: white;
+  text-align: left;
+  outline: none;
+  font-size: 17.5px;
+  transition: 0.4s;
+}
+
+.active,
+.accordion:hover {
+  background-color: #4a8199;
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+  font-size: 20px;
+
+}
+
+li {
+  font-family: "Assistant", serif;
+  text-align: left;
+  
+}
+
+.accordion:after {
+  content: "\002B";
+  color: #777;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+body {
+  background-color: #afd9ea;
+}
+
+p {
+  font-family: "Assistant", serif;
+  text-align: left;
+}
+
+h1 {
+  text-align: center;
+font-family: 'Comfortaa', cursive;
+  font-size: 40px;
+  color: white;
+}
+
+h3 {
+  text-align: center;
+  font-family: "Playfair Display", serif;
+}
+
+h4 {
+  text-align: center;
+  font-family: "Assistant", serif;
+  color: white;
+}

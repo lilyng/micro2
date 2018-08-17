@@ -1,0 +1,265 @@
+body {
+  background-color: #afd9ea;
+}
+
+.ui-state-highlight { background: #53a4c6 !important; }
+
+
+h1 {
+font-family: 'Comfortaa', cursive;
+  color: white;
+      font-size: 40px;
+
+}
+
+#draggableq1 {
+  width: 125px;
+  height: 100px;
+  padding: 0.5em;
+  margin: 10px 10px 10px 360px;
+  background-color: #74b3ce;
+  font-family: "Assistant";
+  color: white;
+  text-align: center;
+}
+
+#rejectq11 {
+  width: 125px;
+  height: 100px;
+  padding: 0.5em;
+  margin: 10px 10px 10px 385px;
+  background-color: #74b3ce;
+  font-family: "Assistant";
+  color: white;
+  text-align: center;
+}
+#rejectq12 {
+  width: 125px;
+  height: 100px;
+  padding: 0.5em;
+  margin: 10px 10px 10px 410px;
+  background-color: #74b3ce;
+  font-family: "Assistant";
+  color: white;
+  text-align: center;
+}
+#rejectq13 {
+  width: 125px;
+  height: 100px;
+  padding: 0.5em;
+  margin: 10px 10px 10px 435px;
+  background-color: #74b3ce;
+  font-family: "Assistant";
+  color: white;
+  text-align: center;
+}
+
+#droppableq1 {
+  width: 425px;
+  height: 150px;
+  padding: 0.5em;
+  margin: 10px 10px 10px 25px;
+  font-family: "Assistant";
+  background-color: #5c9fbc;
+  color: white;
+  text-align: center;
+}
+
+.question1:after {
+  content: "";
+  display: table;
+  clear: both;
+  font-family: "Assistant";
+  color: white;
+  text-align: center;
+}
+
+#draggableq2 {
+  width: 125px;
+  height: 100px;
+  padding: 0.5em;
+  margin: 10px 10px 10px 385px;
+  background-color: #74b3ce;
+  font-family: "Assistant";
+  color: white;
+  text-align: center;
+}
+
+#rejectq21 {
+  width: 125px;
+  height: 100px;
+  padding: 0.5em;
+  margin: 10px 10px 10px 360px;
+  background-color: #74b3ce;
+  font-family: "Assistant";
+  color: white;
+  text-align: center;
+}
+#rejectq22 {
+  width: 125px;
+  height: 100px;
+  padding: 0.5em;
+  margin: 10px 10px 10px 410px;
+  background-color: #74b3ce;
+  font-family: "Assistant";
+  color: white;
+  text-align: center;
+}
+#draggableq21 {
+  width: 125px;
+  height: 100px;
+  padding: 0.5em;
+  margin: 10px 10px 10px 435px;
+  background-color: #74b3ce;
+  font-family: "Assistant";
+  color: white;
+  text-align: center;
+}
+
+#droppableq2 {
+  width: 425px;
+  height: 150px;
+  padding: 0.5em;
+  margin: 10px 10px 10px 25px;
+  background-color: #5c9fbc;
+  font-family: "Assistant";
+  color: white;
+  text-align: center;
+}
+
+.question2:after {
+  content: "";
+  display: table;
+  clear: both;
+  text-align: center;
+}
+
+#draggableq3 {
+  width: 125px;
+  height: 100px;
+  padding: 0.5em;
+  margin: 10px 10px 10px 360px;
+  background-color: #74b3ce;
+  font-family: "Assistant";
+  color: white;
+  text-align: center;
+}
+
+#rejectq31 {
+  width: 125px;
+  height: 100px;
+  padding: 0.5em;
+  margin: 10px 10px 10px 385px;
+  background-color: #74b3ce;
+  font-family: "Assistant";
+  color: white;
+  text-align: center;
+}
+#rejectq32 {
+  width: 125px;
+  height: 100px;
+  padding: 0.5em;
+  margin: 10px 10px 10px 410px;
+  background-color: #74b3ce;
+  font-family: "Assistant";
+  color: white;
+  text-align: center;
+}
+#rejectq33 {
+  width: 125px;
+  height: 100px;
+  padding: 0.5em;
+  margin: 10px 10px 10px 435px;
+  background-color: #74b3ce;
+  font-family: "Assistant";
+  color: white;
+  text-align: center;
+}
+
+#droppableq3 {
+  width: 425px;
+  height: 150px;
+  padding: 0.5em;
+  margin: 10px 10px 10px 25px;
+  background-color: #5c9fbc;
+  font-family: "Assistant";
+  color: white;
+  text-align: center;
+}
+
+.question3:after {
+  content: "";
+  display: table;
+  clear: both;
+  font-family: "Assistant";
+  color: white;
+  text-align: center;
+}
+
+#draggableq4 {
+  width: 125px;
+  height: 100px;
+  padding: 0.5em;
+  margin: 10px 10px 10px 410px;
+  background-color: #74b3ce;
+  font-family: "Assistant";
+  color: white;
+  text-align: center;
+}
+
+#rejectq41 {
+  width: 125px;
+  height: 100px;
+  padding: 0.5em;
+  margin: 10px 10px 10px 360px;
+  background-color: #74b3ce;
+  font-family: "Assistant";
+  color: white;
+  text-align: center;
+}
+#rejectq42 {
+  width: 125px;
+  height: 100px;
+  padding: 0.5em;
+  margin: 10px 10px 10px 385px;
+  background-color: #74b3ce;
+  font-family: "Assistant";
+  color: white;
+  text-align: center;
+}
+#rejectq43 {
+  width: 125px;
+  height: 100px;
+  padding: 0.5em;
+  margin: 10px 10px 10px 435px;
+  background-color: #74b3ce;
+  font-family: "Assistant";
+  color: white;
+  text-align: center;
+}
+
+#droppableq4 {
+  width: 425px;
+  height: 150px;
+  padding: 0.5em;
+  margin: 10px 10px 10px 25px;
+  background-color: #5c9fbc;
+  font-family: "Assistant";
+  color: white;
+  text-align: center;
+}
+
+.question4:after {
+  content: "";
+  display: table;
+  clear: both;
+  font-family: "Assistant";
+  color: white;
+  text-align: center;
+}
+.column {
+  float: left;
+  width: 10%;
+  padding: 10px;
+}
+
